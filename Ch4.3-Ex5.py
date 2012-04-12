@@ -48,13 +48,14 @@ def arc(t,radius,angle):
 world = TurtleWorld()
 bob = Turtle()
 bob.delay = 0.01
+ray = Turtle()
+
 radius = 100.
 angle = 60.
 arc(bob,radius,angle)
 
-rad2 = 100.
-angle2 = 360.
-arc(bob,rad2,angle2)
+length = 100.
+square(ray,length)
 
 # Note: reason it doesn't draw over itself exactly is because of the
 # extra left turn at the end of the loop *I think*
